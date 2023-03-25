@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #135ca0;
+    height: 100vh;
+
+}
+
+#container-increment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #38a5f9;
+    padding: 100px 100px;
+    border-radius: 50px;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+output {
+    padding: 30px 100px;
+}
+
+output p {
+    font-size: 90px;
+    color: green;
+}
+
+div button {
+    margin: 0px 10px;
+    padding: 7px 20px;
+    border-radius: 50px;
+    font-size: 17px;
+}
+
+div button:hover {
+    background-color: #2669eb;
+}
